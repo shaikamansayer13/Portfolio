@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaik Aman Sayer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"  type="image/png" href="Artboard_16-512.webp">    
+    <script src="https://kit.fontawesome.com/831af0499b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div id="divnav">
+                <nav>
+                    <div id="img-div">
+                        <img id="imagee" src="aman-logo.png" alt="">
+                    </div>
+                    <ul id="side-menu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>  
+                </nav>
+            </div>
+           
+            <div id="repeatpics">
+                <img id="image" class="image1" src="1.jpeg" alt="imagess">
+             </div>
+         <div class="header-text">
+            <h1>Hi,I am shaik <span>Aman</span> Sayer</h1>
+            <p>Front End Developer</p>
+         </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img id="picture" src="Image_1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                   <h1 class="sub-title">About me</h1>
+                   <p>A fresher holding a bachelor’s degree in Electronics and Communication Engineering. I am a proactive learner with a flair for adopting emerging trends and addressing industry requirements to achieve organizational objectives & profitability norms.
+                    Fast learner with a strong passion for acquiring new skills and staying updated with emerging technologies. By harnessing my commitment to learning, passion for staying updated with emerging technologies, and the determination to deliver results, I am ready to make a significant impact and foster growth within any organization I become a part of.
+                    </p>
+
+                   <div class="tab-titles ">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"  onclick="opentab('education')">Education</p>
+                   </div>
+                   <div id="flex">
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                         <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                         <li><span>Web Development</span><br>I possess skills in HTML, CSS, and JavaScript</li>
+                         <li><span>DSA</span><br>Solved 200+ problems on Leetcode and coding ninjas</li>
+                        </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                         <ul>
+                          <li><span>BTECH(ECE) - 2023</span><br>Aurora's Technological and Research Institute Hyderabad</li>
+                          <li><span>MPC - 2019</span><br>St Anthony Junior college</li>
+                          <li><span>SSC - 2017</span><br>St Ann's High School</li>
+                         </ul>
+                         </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I excel in crafting compelling web designs that seamlessly integrate aesthetic appeal and responsive functionality, resulting in captivating and user-friendly websites tailored to diverse business needs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I specialize in crafting immersive UI/UX solutions that elevate user experiences through thoughtful design and seamless interaction.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-github-alt"></i>
+                    <h2>DSA</h2>
+                    <p>I possess strong proficiency in Data Structures and Algorithms, enabling me to develop efficient and optimized software solutions.</p>
+                    <a href="https://leetcode.com/Shaik_Aman_Sayer/" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="image1">
+                    <div class="layer">
+                        <h3>Amazon Clone</h3>
+                        <p>Introducing my latest frontend project 
+                        </p>
+                        <a href="https://shaikamansayer13.github.io/Amazon_Clone/" target="_blank"><i class="fa-solid fa-link"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="image2">
+                    <div class="layer">
+                        <h3>News Snap Cards</h3>
+                        <p> Introducing Snap News Card!. Check it out and stay <br>
+                            updated with the latest headlines! </p>
+                        <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-solid fa-link"></i></i></a>
+                    </div>
+                </div> 
+                <div class="work">
+                    <img src="work-3.png" alt="image3">
+                    <div class="layer">
+                        <h3>Online Shopping</h3>
+                        <p> An online marketplace for seamless shopping  <br> delivering
+                            endless choices to your fingertips.</p>
+                        <a href=""><i class="fa-solid fa-link"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- conatct form -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> amansayer2023@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 6309130028</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/innocent_sayer/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/shaikamansayer13" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/innocent_sayer/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shaik-aman-sayer-503881250/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Shaik_resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2" id="colorChangeBtn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 Shiak Aman Sayer. All rights reserved. </p>
+        </div>
+    </div>
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    // Array of image URLs
+    const images = ['1.jpeg', '2.jpeg'];
+
+const imageElement = document.getElementById('image');
+let currentIndex = 0;
+function changeImage() {
+    imageElement.src = images[currentIndex]
+    currentIndex = (currentIndex + 1) % images.length;
+}
+
+    // Set the interval to change images every 3 seconds (3000 milliseconds)
+    setInterval(changeImage, 3000);
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById('side-menu');
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }  
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }      
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwXkpBQxebUrRqPy7NqNcpRFI8Ee5bvkk0xDvT7QhLY3CU_b75gQMSDcbuGZemhp940/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },4000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script>
+        document.getElementById("colorChangeBtn").addEventListener("click", function() {
+        this.classList.add("active");
+    
+        setTimeout(() => {
+            this.classList.remove("active");
+        }, 600);
+    });
+      </script>
+</body>
+</html>
