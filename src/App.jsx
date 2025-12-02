@@ -1,5 +1,5 @@
 import Header from "./Pages/Header";
-import SidebarProfile from "./Components/SidebarProfile";
+import SidebarProfile from "./components/SidebarProfile";
 import About from "./Pages/Aboutme";
 import Skills from "./Pages/Skills";
 import Projects from "./Pages/Projects";
