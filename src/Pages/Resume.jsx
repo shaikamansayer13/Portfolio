@@ -91,8 +91,8 @@ const Resume = () => {
           </div>
         </div>
       </div>
-
-       <div className="download-container">
+      
+        <div style={{ textAlign: "center", marginTop: "20px" }}>
        <a href="/Resume_Aman.pdf" className="download-btn" download>
        ⬇️ Download My Resume
        </a>
@@ -102,4 +102,5 @@ const Resume = () => {
 };
 
 export default Resume;
+
 
