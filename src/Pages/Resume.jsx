@@ -92,13 +92,14 @@ const Resume = () => {
         </div>
       </div>
 
-      <div style={{ textAlign: "center", marginTop: "20px" }}>
-        <a href="/resume.pdf" className="download-btn">
-          ⬇️ Download My CV
-        </a>
-      </div>
+       <div className="download-container">
+       <a href="/Resume_Aman.pdf" className="download-btn" download>
+       ⬇️ Download My Resume
+       </a>
+       </div>
     </div>
   );
 };
 
 export default Resume;
+
