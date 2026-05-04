@@ -1,72 +1,82 @@
 const projectsData = [
-  // ───────────────── Connectify ─────────────────
-  {
-    image: "/images/connectify.png",
-    title: "Connectify",
-    tech: ["HTML", "CSS", "JavaScript"],
-    desc: "A responsive web application for creating, managing, and organizing contact cards with support for adding, editing, deleting, and viewing detailed contact information including profile pictures.",
-    github: "https://github.com/shaikamansayer13/Connectify",
-    demo: "https://shaikamansayer13.github.io/Connectify/",
-  },
-
-  // ───────────────── Cardify ─────────────────
-  {
-    image: "/images/cardify.png",
-    title: "Cardify",
-    tech: ["HTML", "CSS", "JavaScript"],
-    desc: "An interactive card creation web app featuring dynamic card generation, local storage support, and responsive layouts. Built to strengthen DOM manipulation and frontend logic.",
-    github: "https://github.com/shaikamansayer13/Cardify",
-    demo: "https://shaikamansayer13.github.io/Cardify/",
-  },
-
-  // ───────────────── Notes App ─────────────────
-  {
-    image: "/images/notesapp.jpg",
-    title: "Notes App",
-    tech: ["React", "CSS"],
-    desc: "A fast and responsive notes application built with React. Allows users to create, edit, delete, and store notes using local storage for persistent data, with a clean and simple UI.",
-    github: "https://github.com/shaikamansayer13/Notes_Project",
-    demo: "https://notesappbyaman.netlify.app/",
-  },
-
-  // ───────────────── TaskFlow Dashboard ─────────────────
   {
     image: "/images/taskflow.png",
     title: "TaskFlow Dashboard",
-    tech: ["React", "CSS", "Local Storage", "Vite"],
-    desc: "A modern and responsive task management system built with React and Vite. Admins can create and assign tasks while employees manage their workflow through a clean, intuitive dashboard interface. Includes persistent data storage using Local Storage.",
+    tech: ["React", "JavaScript", "CSS", "Vite"],
+    desc: "Developed a role-based task management dashboard enabling admins to assign tasks and employees to manage workflows. Implemented dynamic state handling and local storage for persistent data with a clean, responsive UI.",
     github: "https://github.com/shaikamansayer13/TaskFlow-Dashboard",
-    demo: "https://taskflow-dashboard-by-aman.netlify.app/",
+    demo: "https://task-flow-dashboard-omega.vercel.app/",
   },
 
-  // ───────────────── Gallery Project ─────────────────
   {
     image: "/images/gallery.png",
-    title: "Gallery Project",
-    tech: ["React", "CSS", "API", "Axios"],
-    desc: "A responsive image gallery built with React that fetches images from an external API using Axios. Features a clean UI, smooth navigation, mobile-friendly layout, and interactive like/dislike functionality.",
+    title: "Gallery App",
+    tech: ["React", "API", "Axios", "CSS"],
+    desc: "Built a responsive image gallery integrating external APIs using Axios. Features dynamic data fetching, interactive UI, and smooth user experience across devices.",
     github: "https://github.com/shaikamansayer13/Gallery_Project",
-    demo: "https://galleryprojectbyaman.netlify.app/",
+    demo: "https://gallery-project-nine.vercel.app/",
   },
 
-  // ───────────────── E-Commerce Front ─────────────────
   {
-    image: "/images/ecommerce.png",
-    title: "E-Commerce Front",
-    tech: ["HTML", "CSS"],
-    desc: "A sleek and fully responsive clothing website designed with a modern layout and clean UI. Built using HTML and CSS, showcasing fashion products with smooth navigation and aesthetic presentation.",
-    github: "https://github.com/shaikamansayer13/Ecommerce_Front",
-    demo: "https://shaikamansayer13.github.io/Ecommerce_Front/index.html#",
+    image: "/images/notesapp.jpg",
+    title: "Notes Application",
+    tech: ["React", "JavaScript", "CSS"],
+    desc: "Created a responsive notes management app with add, edit, and delete functionality. Implemented local storage to ensure persistent user data and optimized UI for usability.",
+    github: "https://github.com/shaikamansayer13/Notes_Project",
+    demo: "https://notes-project-ashy.vercel.app/",
   },
 
-  // ───────────────── Myntra Clone ─────────────────
   {
     image: "/images/myntra.png",
     title: "Myntra Frontend Clone",
     tech: ["HTML", "CSS", "JavaScript"],
-    desc: "A fully responsive front-end clone of the Myntra website built using HTML, CSS, and JavaScript. Recreates the layout, styles, and shopping experience with smooth navigation and modern UI components.",
+    desc: "Recreated a modern e-commerce interface inspired by Myntra with responsive layouts, product listings, and smooth navigation using vanilla JavaScript.",
     github: "https://github.com/shaikamansayer13/Myntra",
     demo: "https://ornate-sawine-9753cd.netlify.app/",
+  },
+
+  {
+    image: "/images/ecommerce.png",
+    title: "E-Commerce UI",
+    tech: ["HTML", "CSS"],
+    desc: "Designed a clean and responsive e-commerce interface showcasing product layouts and user-friendly navigation, focusing on modern UI principles.",
+    github: "https://github.com/shaikamansayer13/Ecommerce_Front",
+    demo: "https://shaikamansayer13.github.io/Ecommerce_Front/index.html",
+  },
+
+  {
+    image: "/images/connectify.png",
+    title: "Connectify",
+    tech: ["HTML", "CSS", "JavaScript"],
+    desc: "Developed a contact management web app supporting add, edit, delete, and profile-based contact viewing. Focused on DOM manipulation and interactive UI behavior.",
+    github: "https://github.com/shaikamansayer13/Connectify",
+    demo: "https://shaikamansayer13.github.io/Connectify/",
+  },
+  {
+    image: "/images/weather-app.png",
+    title: "Weather App",
+    tech: ["JavaScript", "API", "CSS"],
+    desc: "Built a real-time weather application using API integration to fetch live weather data based on user input. Implemented dynamic UI updates with responsive design.",
+    github: "https://github.com/shaikamansayer13/Weather-app",
+    demo: "https://shaikamansayer13.github.io/Weather-app/",
+  },
+
+  {
+    image: "/images/movie-app.png",
+    title: "Movie App",
+    tech: ["JavaScript", "API", "CSS"],
+    desc: "Developed a movie browsing application using external APIs to display trending and searched movies with dynamic rendering and responsive UI.",
+    github: "https://github.com/shaikamansayer13/Movie-app",
+    demo: "https://shaikamansayer13.github.io/Movie-app/",
+  },
+
+  {
+    image: "/images/github-search.png",
+    title: "GitHub User Search",
+    tech: ["JavaScript", "API", "CSS"],
+    desc: "Created a GitHub user search tool that fetches and displays profile details, repositories, and followers using API integration with a clean UI.",
+    github: "https://github.com/shaikamansayer13/Github-user-search",
+    demo: "https://shaikamansayer13.github.io/Github-user-search/",
   },
 ];
 
