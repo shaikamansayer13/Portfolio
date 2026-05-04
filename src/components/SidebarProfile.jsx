@@ -7,7 +7,7 @@ export default function SidebarProfile() {
       <div className="sidebar-wrapper">
         <div className="sidebar-card">
           <div className="profile-pic">
-            <img src="/aman.jpg" alt="profile" />
+            <img src="/Aman.jpg" alt="profile" />
           </div>
 
           <h2 className="name">Shaik Aman Sayer</h2>
