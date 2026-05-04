@@ -32,7 +32,7 @@ const projectsData = [
     tech: ["HTML", "CSS", "JavaScript"],
     desc: "Recreated a modern e-commerce interface inspired by Myntra with responsive layouts, product listings, and smooth navigation using vanilla JavaScript.",
     github: "https://github.com/shaikamansayer13/Myntra",
-    demo: "https://ornate-sawine-9753cd.netlify.app/",
+    demo: "https://shaikamansayer13.github.io/Myntra/",
   },
 
   {
