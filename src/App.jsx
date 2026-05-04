@@ -12,7 +12,7 @@ export default function App() {
     <Router>
       {/* MOBILE TOP PROFILE CARD */}
       <div className="mobile-top-banner">
-        <img src="/aman.jpg" className="mtb-img" />
+        <img src="/Aman.jpg" className="mtb-img" />
 
         <h3 className="mtb-name">Shaik Aman Sayer</h3>
         <p className="mtb-role">Senior Analyst</p>
